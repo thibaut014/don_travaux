@@ -1,0 +1,310 @@
+// uniquement pout voir le svg au début
+svg {
+ 
+    height: 50px; 
+
+}
+
+.baniere{
+    background-color: #EAEAEA;
+    height: 160px;
+    display: flex;
+
+
+    .sujet{
+        
+        .titre{
+            margin-top: 7%;
+            border-left: 3px solid red;
+            padding-left: 10px;
+            font-weight: 700;
+        }
+
+        .sousT{
+            margin-top: 2%;
+            font-weight: 700;
+            padding-left: 13px;
+        }
+    }
+}
+
+.contexte{
+    text-align: center;
+    display: block;
+
+    h2{
+        font-weight: 600;
+        font-size: 40px;
+        margin-top: 2%;
+    }
+
+    // .coeur{
+    //     position: absolute;
+    //     margin-top: 25px;
+    //     margin-left: -6%;
+    //     z-index: 999;
+    // }
+
+    .lien{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0 auto;
+        margin-top: 6%;
+        cursor: pointer;
+        background-color: #EAEAEA;
+        width: 370px;
+        padding-left: 10px;
+        border-radius: 25px;
+
+        .active{
+            background-color: #E52729;
+            color: white;
+            height: 35px;
+            width: 200px;
+            border-radius: 25px;
+            z-index: 1;
+            position: relative;
+            &::before{
+                background-image:url('../img/coeur.png'); /* with class ModalCarrot ??*/
+                position:absolute; /*or absolute*/
+                z-index:10; /*a number that's more than the modal box*/
+                left: 85px;
+                top:-28px;
+                background-size: 35px 35px;
+                width: 35px;
+                height: 35px;
+                content: '';
+            }
+
+            h3{
+                font-size: 15px;
+                font-weight: 600;
+                margin-top: 4%;
+            }
+        }
+
+        .gris{
+            //background-color: red;
+            color: white;
+            height: 35px;
+            width: 200px;
+            border-radius: 25px;
+            margin-left: -4%;
+
+            h3{
+                font-size: 15px;
+                font-weight: 600;
+                margin-top: 4%;
+            }
+        }
+    }
+
+    .texte{
+        font-weight: 600;
+        margin-top: 3%;
+
+        .rouge{
+            color: red;
+        }
+    }
+}
+
+.don{
+    
+    display: none;
+
+
+    .bloc{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .bloc_don{
+        background-color: #E52729;
+        color: white;
+        height: 350px;
+        width: 310px;
+
+        text-align: center;
+        font-weight: 600;
+        border-top-right-radius: 15px;
+
+        .rond{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8%;
+        }
+
+        .prix{
+            width: 80px;
+            height: 80px;
+            border-radius: 55px;
+            background-color: white;
+            color: #E52729;
+            margin-left: 38%;
+            border: 2px solid #E52729;
+            font-size: 30px;
+            padding-top: 20px;
+            margin: auto auto;
+        }
+
+        .prix:hover{
+            background-color: #E52729;
+            color: white;
+            border: 2px solid white;
+        }
+
+        #Layer_2{
+            margin-top: 5%;
+        }
+
+        .active_prix{
+            background-color: #E52729;
+            color: white;
+            border: 2px solid white;
+        }
+
+    }
+
+    .formulaire{
+        background-color: #CDCCCC;
+        color: #E52729;
+        width: 310px;
+        border-top-right-radius: 15px;
+
+        #title_coord{// rochdi tu peux rajouter ce paragraphe ( pas oublier de le mettre dans l'html sous le nom rochdi id)
+            text-align: center; 
+        }
+
+        .title_coordonnee{
+            text-align: center !important;
+        }
+
+        .simpay-label-wrap{
+            text-align: left;
+            font-weight: 600;
+
+            .form_don{
+                color: white;
+                margin: 5px;// rochdi
+                font-size: 15px;// rochdi
+            }
+
+            .form_paiement{
+                color: white;
+            }
+        }
+
+        .simpay-field-wrap{
+            text-align: center;
+        }
+
+        .screen-reader-text{
+            display: none;
+        }
+
+        input, select{
+            margin: 5px;
+            border-radius: 3px;
+            border: none;
+        }
+
+        input::placeholder{
+            color: #CDCCCC;
+            opacity: 90%;
+        }
+
+        .simpay-field-wrap{
+            display: flex;
+        }
+
+        .simpay-address-city{
+            //display: flex;
+            width: 100%;
+        }
+
+        .simpay-address-zip{
+            //display: flex;
+            width: 100%;
+        }
+
+        .simpay-customer-name, .simpay-email, .simpay-address-street, .simpay-custom-amount-input, select {
+            width: 100%;
+        }
+
+
+        .ville_code{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .simpay-checkout-btn-container{
+            text-align: center;
+
+            .simpay-checkout-btn{
+                background-color: #E52729;
+                border: none;
+                width: 150px;
+                height: 35px;
+                border-radius: 15px;
+                color: white;
+            }
+        }
+
+        .accepte{
+            color: white;
+            display: flex;
+
+            .form_condition{
+                text-align: start;
+                font-size: 12px;
+                margin-top: 6%;
+            }
+        }
+    }
+}
+
+.simpay-total-amount-label{// rochdi : rajouter tout ce bloque
+    color: black;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.simpay-total-amount-recurring-label{// rochdi : rajouter tout ce bloque
+    color: black;
+    margin: 5px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 13px;
+}
+
+
+.don_active{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    // align-items: center;
+}
+
+.simpay-form-control button{
+    margin-top: 20px;
+}
+// .Modal::after{
+//     content:url('blackCarrot.png'); /* with class ModalCarrot ??*/
+//     position:relative; /*or absolute*/
+//     z-index:100000; /*a number that's more than the modal box*/
+//     left:-50px;
+//     top:10px;
+//   }
+  
+//   .ModalCarrot{
+//      position:absolute;
+//      left:50%;
+//      margin-left:-8px;
+//      top:-16px;
+//   }

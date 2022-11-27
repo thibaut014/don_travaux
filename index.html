@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Exercice pratique jQuery & CSS (don en ligne)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<section class="baniere">
+		<div class="container sujet">
+			<h2 class="titre">Nous soutenir</h2>
+			<h2 class="sousT">Faire un don à la Ligue Cardiologique Belge</h2>
+		</div>
+	</section>
+
+
+	<section class="contexte">
+		<h2>Votre don sauvera <span>une vie</span></h2>
+		<!-- <svg class="coeur" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.45 58.85"><defs><style>.cls-1{fill:#e52729;stroke:#fff;stroke-miterlimit:10;}</style></defs><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M57.06,29.67c-.61,1.11-1.24,2.19-1.87,3.24-5.07,8.36-10.56,16.43-15.57,24.84a1.25,1.25,0,0,1-.54.57,1.17,1.17,0,0,1-.87-.15c-14.63-6.52-52-35.63-31.88-53.43,4.4-3.89,11.58-2.93,16.23.66S29.87,14.52,32.11,20A46,46,0,0,1,38.65,6c3.2-4.62,9.49-6.3,14.88-5C66.82,4,61.47,21.61,57.06,29.67Z"/></g></g></svg> -->
+		<ul class="lien">
+			<li id="unique" class="gris active">
+				<a data-toggle="tab" role="tab"><h3>DON UNIQUE</h3></a>
+			</li>
+			<li id="mensuel" class="gris">
+				<a data-toggle="tab" role="tab"><h3>DON MENSUEL</h3></a>
+			</li>
+		</ul>
+		<div class="container texte">
+			<p>45% de votre don est déductible fiscalement s’il atteint ou dépasse 40€ par an.</p>
+			<p>Dans ce cas, vous recevrez une attestation fiscale.</p>
+			<p class="rouge">Votre don se révèle donc aussi avantageux pour vous.</p>
+		</div>
+	</section>
+
+
+	<!-- ----------------------------------------------------------------------------------------------------------- don unique  -->
+	<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+	<section class="don don_unique container-fluid don_active">
+		<!-- <div class="row gx-4"> -->
+			<div class="bloc bloc_don">
+				<a href="#" class="rond">
+					<h1 class="prix">50€</h1>
+				</a>
+				<p>ou 27.5€ après déduction fiscale</p>
+				<p>Vous financez le dépistage des facteurs de risque pour 2 personnes.</p>
+				<!--?xml version="1.0" encoding="UTF-8"?-->
+				<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.64 69.49">
+					<g id="Calque_1">
+						<g>
+							<path
+								d="M3.02,33.32C-4.68,9.52,18.2-10.03,41.32,9.45c34.68-29.21,68.83,29.37,0,58.42-13.18-5.56-22.59-12.21-28.94-19.12"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></path>
+							<polyline
+								points="1.59 40.08 17.57 40.08 21.41 16.19 25.39 40.08 33.35 40.08 38.66 53.35 47.95 24.15 53.26 40.08 66.53 40.08"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></polyline>
+						</g>
+					</g>
+				</svg>
+			</div>
+	
+			<div class="bloc bloc_don">
+				<a href="#" class="rond">
+					<h1 class="prix">75€</h1>
+				</a>
+				<p>ou 27.5€ après déduction fiscale</p>
+				<p>Vous financez le dépistage des facteurs de risque pour 2 personnes.</p>
+				<!--?xml version="1.0" encoding="UTF-8"?-->
+				<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.64 69.49">
+					<g id="Calque_1">
+						<g>
+							<path
+								d="M3.02,33.32C-4.68,9.52,18.2-10.03,41.32,9.45c34.68-29.21,68.83,29.37,0,58.42-13.18-5.56-22.59-12.21-28.94-19.12"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></path>
+							<polyline
+								points="1.59 40.08 17.57 40.08 21.41 16.19 25.39 40.08 33.35 40.08 38.66 53.35 47.95 24.15 53.26 40.08 66.53 40.08"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></polyline>
+						</g>
+					</g>
+				</svg>
+			</div>
+	
+			<div class="bloc bloc_don">
+				<a href="#" class="rond">
+					<h1 class="prix">100€</h1>
+				</a>
+				<p>ou 27.5€ après déduction fiscale</p>
+				<p>Vous financez le dépistage des facteurs de risque pour 2 personnes.</p>
+				<!--?xml version="1.0" encoding="UTF-8"?-->
+				<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.64 69.49">
+					<g id="Calque_1">
+						<g>
+							<path
+								d="M3.02,33.32C-4.68,9.52,18.2-10.03,41.32,9.45c34.68-29.21,68.83,29.37,0,58.42-13.18-5.56-22.59-12.21-28.94-19.12"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></path>
+							<polyline
+								points="1.59 40.08 17.57 40.08 21.41 16.19 25.39 40.08 33.35 40.08 38.66 53.35 47.95 24.15 53.26 40.08 66.53 40.08"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></polyline>
+						</g>
+					</g>
+				</svg>
+			</div>
+	
+			<!-- --------------------------------------------------------------------------------------------------------- FORMULAIRE -->
+	
+			<form action="" method="post"
+				class="bloc formulaire simpay-checkout-form simpay-form-163895 simpay-styled simpay-checkout-form--embedded"
+				id="simpay-form-163895" data-simpay-form-id="163895" data-simpay-form-instance="1">
+				<div class="simpay-form-control simpay-name-container simpay-customer-name-container">
+	
+					<div id="title_coord" class="simpay-customer_name-label simpay-label-wrap title_coordonne">
+						<label for="simpay-form-163895-field-1" class="title_coordonne">
+							Vos coordonnées </label>
+					</div>
+	
+					<div class="simpay-customer-name-wrap simpay-field-wrap">
+						<input type="text" name="simpay_customer_name" id="simpay-form-163895-field-1"
+							class="simpay-customer-name" value="" placeholder="Nom complet" required="">
+					</div>
+				</div>
+	
+	
+				<div class="simpay-form-control simpay-email-container">
+	
+					<div class="simpay-email-label simpay-label-wrap">
+						<label for="simpay-form-163895-field-3" class="screen-reader-text">
+							email </label>
+					</div>
+	
+					<div class="simpay-email-wrap simpay-field-wrap">
+						<input type="email" name="simpay_email" id="simpay-form-163895-field-3" class="simpay-email"
+							value="" placeholder="E-mail" required="">
+					</div>
+				</div>
+	
+	
+				<fieldset class="simpay-form-control simpay-plan-select-container" data-display-type="radio"
+					style="display: none">
+					<div class="simpay-plan_select-label simpay-label-wrap">
+						<legend class="">
+							Choose an amount </legend>
+					</div>
+	
+					<div class="simpay-plan-wrapper simpay-field-wrap simpay-dropdown-wrap">
+						<ul class="simpay-multi-plan-radio-group">
+							<li>
+								<label for="simpay_cc4a35d8-b0fc-4bd5-a72b-d4934ed7d3c9-instance-755">
+									<input type="radio" id="simpay_cc4a35d8-b0fc-4bd5-a72b-d4934ed7d3c9-instance-755"
+										class="simpay-multi-sub simpay-price-option-simpay_cc4a35d8-b0fc-4bd5-a72b-d4934ed7d3c9"
+										data-price="{&quot;instance_id&quot;:&quot;0&quot;,&quot;product_id&quot;:&quot;prod_JJovFlc615wQmB&quot;,&quot;id&quot;:&quot;simpay_cc4a35d8-b0fc-4bd5-a72b-d4934ed7d3c9&quot;,&quot;default&quot;:true,&quot;label&quot;:&quot;Je choisis de faire un don de&quot;,&quot;currency&quot;:&quot;eur&quot;,&quot;currency_symbol&quot;:&quot;€&quot;,&quot;is_zero_decimal&quot;:false,&quot;unit_amount&quot;:5000,&quot;unit_amount_min&quot;:&quot;100&quot;,&quot;can_recur&quot;:false,&quot;recurring&quot;:null,&quot;line_items&quot;:null,&quot;generated_label&quot;:&quot;starting at 1,00€&quot;,&quot;simplified_label&quot;:&quot;Je choisis de faire un don de&quot;,&quot;currency_min_amount&quot;:100}"
+										name="simpay_price" checked="checked"
+										value="simpay_cc4a35d8-b0fc-4bd5-a72b-d4934ed7d3c9"
+										data-plan-id="simpay_cc4a35d8-b0fc-4bd5-a72b-d4934ed7d3c9" data-plan-amount="50">
+									Je choisis de faire un don de </label>
+							</li>
+						</ul>
+					</div>
+				</fieldset>
+	
+	
+				<fieldset class="simpay-form-control simpay-address-container simpay-billing-address-container">
+	
+					<div class="simpay-address-container">
+	
+						<div class="simpay-form-control simpay-address-country-container">
+	
+							<div class="simpay-address-label simpay-label-wrap">
+								<label for="simpay-form-163895-field-7" class="screen-reader-text">
+									address </label>
+							</div>
+	
+							<div class="simpay-country-wrap simpay-field-wrap">
+								<select name="simpay_billing_address_country"
+									id="simpay-form-163895-field-7-billing-country" class="simpay-address-country">
+									<option value="">
+										Select a country… </option>
+									<option value="AF">
+										Afghanistan </option>
+									<option value="AX">
+										Åland Islands </option>
+									<option value="AL">
+										Albania </option>
+									<option value="DZ">
+										Algeria </option>
+									<option value="AS">
+										American Samoa </option>
+									<option value="AD">
+										Andorra </option>
+									<option value="AO">
+										Angola </option>
+									<option value="AI">
+										Anguilla </option>
+									<option value="AQ">
+										Antarctica </option>
+									<option value="AG">
+										Antigua and Barbuda </option>
+									<option value="AR">
+										Argentina </option>
+									<option value="AM">
+										Armenia </option>
+									<option value="AW">
+										Aruba </option>
+									<option value="AU">
+										Australia </option>
+									<option value="AT">
+										Austria </option>
+									<option value="AZ">
+										Azerbaijan </option>
+									<option value="BS">
+										Bahamas </option>
+									<option value="BH">
+										Bahrain </option>
+									<option value="BD">
+										Bangladesh </option>
+									<option value="BB">
+										Barbados </option>
+									<option value="BY">
+										Belarus </option>
+									<option value="BE" selected="selected">
+										Belgium </option>
+									<option value="PW">
+										Belau </option>
+									<option value="BZ">
+										Belize </option>
+	
+								</select>
+							</div>
+						</div>
+	
+	
+						<div class="simpay-form-control simpay-address-street-container">
+	
+							<div class="simpay-address-label simpay-label-wrap">
+								<label for="simpay-form-163895-field-7" class="screen-reader-text">
+									address </label>
+							</div>
+	
+							<div class="simpay-street-wrap simpay-field-wrap">
+								<input type="text" name="simpay_billing_address_line1"
+									id="simpay-form-163895-field-7-billing-street" class="simpay-address-street" value=""
+									placeholder="Rue" maxlength="500">
+							</div>
+						</div>
+	
+						<div class="ville_code">
+							<div class="simpay-form-control simpay-address-city-container">
+		
+								<div class="simpay-address-label simpay-label-wrap">
+									<label for="simpay-form-163895-field-7" class="screen-reader-text">
+										address </label>
+								</div>
+		
+								<div class="simpay-city-wrap simpay-field-wrap">
+									<input type="text" name="simpay_billing_address_city"
+										id="simpay-form-163895-field-7-billing-city" class="simpay-address-city" value=""
+										placeholder="Ville" maxlength="500">
+								</div>
+							</div>
+		
+		
+							<!-- <div class="simpay-form-control simpay-address-state-container">
+		
+								<div class="simpay-address-label simpay-label-wrap">
+									<label for="simpay-form-163895-field-7" class="screen-reader-text">
+										address </label>
+								</div>
+		
+								<div class="simpay-state-wrap simpay-field-wrap">
+									<input type="text" name="simpay_billing_address_state"
+										id="simpay-form-163895-field-7-billing-state" class="simpay-address-state" value=""
+										placeholder="État" maxlength="500">
+								</div>
+							</div> -->
+		
+		
+							<div class="simpay-form-control simpay-address-zip-container">
+		
+								<div class="simpay-address-label simpay-label-wrap">
+									<label for="simpay-form-163895-field-7" class="screen-reader-text">
+										address </label>
+								</div>
+		
+								<div class="simpay-zip-wrap simpay-field-wrap">
+									<input type="text" name="simpay_billing_address_postal_code"
+										id="simpay-form-163895-field-7-billing-zip" class="simpay-address-zip" value=""
+										placeholder="Code postal" maxlength="500">
+								</div>
+							</div>
+						</div>
+	
+					</div>
+				</fieldset>
+	
+	
+				<div class="simpay-form-control simpay-custom-amount-container" style="display: block;">
+	
+					<div class="simpay-custom_amount-label simpay-label-wrap">
+						<label for="simpay-form-163895-field-6" class="form_don">
+							Je choisis de faire un don de </label>
+					</div>
+	
+					<div class="simpay-custom-amount-wrap simpay-field-wrap">
+						<input type="tel" name="simpay_custom_price_amount" id="simpay-form-163895-field-6"
+							placeholder="50,00"
+							class="simpay-amount-input simpay-custom-amount-input simpay-custom-amount-input-symbol-right"
+							data-prefill-default="">
+						<span class="simpay-currency-symbol simpay-currency-symbol-right">€</span>
+					</div>
+				</div>
+	
+	
+				<!-- <div class="simpay-form-control simpay-form-control--card simpay-card-container">
+	
+					<div class="simpay-card-label simpay-label-wrap">
+						<label for="simpay-form-163895-field-6" class="form_paiement">
+							Moyen de paiement </label>
+					</div>
+	
+	
+					<div class="simpay-form-tabs">
+						<div class="simpay-form-tabs-toggles" role="tablist" aria-label="Moyen de paiement"
+							style="display: none;">
+							<button role="tab" aria-controls="simpay-payment-method-panel-card"
+								id="simpay-payment-method-toggle-card"
+								class="simpay-payment-method-toggle simpay-form-tabs-toggles__toggle is-active"
+								data-payment-method="card" aria-selected="true" tabindex="0" style="display: block;">
+	
+								Credit Card </button>
+						</div>
+	
+						<div id="simpay-payment-method-panel-card" role="tabpanel"
+							aria-labelledby="simpay-payment-method-toggle-card">
+	
+	
+							<div id="simpay-card-element-simpay-form-163895-field-6"
+								class="simpay-card-wrap simpay-field-wrap StripeElement StripeElement--empty"
+								data-show-postal-code="yes">
+								<div class="__PrivateStripeElement"
+									style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+									<iframe name="__privateStripeFrame6966" frameborder="0" allowtransparency="true"
+										scrolling="no" role="presentation" allow="payment *"
+										src="https://js.stripe.com/v3/elements-inner-card-0a2bf4cb8eb2809bdadde3d8eaa1d2c0.html#locale=auto&amp;wait=false&amp;mids[guid]=NA&amp;mids[muid]=311e4ec8-1af1-4bc7-9359-791a7beda22d0eae8a&amp;mids[sid]=NA&amp;hidePostalCode=true&amp;style[base][color]=rgb(0%2C+0%2C+0)&amp;style[base][fontFamily]=-apple-system%2C+%22system-ui%22%2C+%22Segoe+UI%22%2C+Helvetica%2C+Arial%2C+sans-serif%2C+%22Apple+Color+Emoji%22%2C+%22Segoe+UI+Emoji%22&amp;style[base][fontSize]=15px&amp;style[base][fontWeight]=400&amp;style[base][fontSmoothing]=antialiased&amp;style[base][::placeholder][color]=%23c7c7c7&amp;rtl=false&amp;componentName=card&amp;keyMode=live&amp;apiKey=pk_live_nnQFJtdl4Olfb8UYAUGC1KxW00CeXY1Vmv&amp;referrer=https%3A%2F%2Fliguecardioliga.be%2Fsoutien-new%2F&amp;controllerId=__privateStripeController6961"
+										title="Cadre de saisie sécurisé pour le paiement par carte"
+										style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; height: 18px;"></iframe><input
+										class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" "
+										autocomplete="false" maxlength="1"
+										style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;">
+								</div>
+							</div>
+	
+	
+						</div>
+					</div>
+				</div>
+	 -->
+	
+				<div class="simpay-form-control simpay-checkbox-container">
+					<div class="simpay-checkbox-label simpay-label-wrap">
+						<div class="simpay-checkbox-wrap simpay-field-wrap accepte">
+							<input type="checkbox" name="simpay_field[Newsletter]" class="simpay-checkbox"
+								id="simpay-form-163895-field-8">
+	
+							<div class="simpay-checkbox-label simpay-label-wrap">
+								<label for="simpay-form-163895-field-8" class="form_condition">
+									J'accepte de recevoir des informations de la part de La Ligue Cardiologique Belge <span
+										class="simpay-optional-indicator"> (optional)</span> </label>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+	
+	
+				<div class="simpay-form-control simpay-checkout-btn-container">
+					<button id="simpay-form-163895-field-7" class="simpay-btn simpay-checkout-btn" type="submit">
+						<span>Payer <em class="simpay-total-amount-value">50,00€</em></span>
+					</button>
+				</div>
+				<input type="hidden" name="simpay_form_id" value="163895"><input type="hidden" name="simpay_amount" value=""
+					class="simpay-amount">
+				<div class="simpay-errors" id="simpay-form-163895-error" aria-live="assertive"
+					aria-relevant="additions text" aria-atomic="true"></div><input type="hidden" name="simpay_tax_amount"
+					value="0" class="simpay-tax-amount"><input type="hidden" id="_wpnonce" name="_wpnonce"
+					value="93155dc2d8"><input type="hidden" name="_wp_http_referer" value="/soutien-new/">
+			</form> <!--------------------------------------------------------------------------------------- FORMULAIRE -->
+
+		<!-- </div> -->
+		
+
+	</section> 
+		<!-- Don  unique -->
+
+	<!-- ----------------------------------------------------------------------------------------------------------- -->
+	<!-- ----------------------------------------------------------------------------------------------- DON MENSUEL -->
+	<!-- ----------------------------------------------------------------------------------------------------------- -->
+
+	<section class="don don_mensuel container-fluid">
+
+		<!-- <div class="row"> -->
+			<div class="bloc bloc_don">
+				<a href="#" class="rond">
+					<h1 class="prix">5€</h1>
+				</a>
+				<p>ou 27.5€ après déduction fiscale</p>
+				<p>Vous financez le dépistage des facteurs de risque pour 2 personnes.</p>
+				<!--?xml version="1.0" encoding="UTF-8"?-->
+				<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.64 69.49">
+					<g id="Calque_1">
+						<g>
+							<path
+								d="M3.02,33.32C-4.68,9.52,18.2-10.03,41.32,9.45c34.68-29.21,68.83,29.37,0,58.42-13.18-5.56-22.59-12.21-28.94-19.12"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></path>
+							<polyline
+								points="1.59 40.08 17.57 40.08 21.41 16.19 25.39 40.08 33.35 40.08 38.66 53.35 47.95 24.15 53.26 40.08 66.53 40.08"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></polyline>
+						</g>
+					</g>
+				</svg>
+			</div>
+	
+			<div class="bloc bloc_don">
+				<a href="#" class="rond">
+					<h1 class="prix">10€</h1>
+				</a>
+				<p>ou 27.5€ après déduction fiscale</p>
+				<p>Vous financez le dépistage des facteurs de risque pour 2 personnes.</p>
+				<!--?xml version="1.0" encoding="UTF-8"?-->
+				<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.64 69.49">
+					<g id="Calque_1">
+						<g>
+							<path
+								d="M3.02,33.32C-4.68,9.52,18.2-10.03,41.32,9.45c34.68-29.21,68.83,29.37,0,58.42-13.18-5.56-22.59-12.21-28.94-19.12"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></path>
+							<polyline
+								points="1.59 40.08 17.57 40.08 21.41 16.19 25.39 40.08 33.35 40.08 38.66 53.35 47.95 24.15 53.26 40.08 66.53 40.08"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></polyline>
+						</g>
+					</g>
+				</svg>
+			</div>
+	
+	
+			<div class="bloc bloc_don">
+				<a href="#" class="rond">
+					<h1 class="prix">20€</h1>
+				</a>
+				<p>ou 27.5€ après déduction fiscale</p>
+				<p>Vous financez le dépistage des facteurs de risque pour 2 personnes.</p>
+				<!--?xml version="1.0" encoding="UTF-8"?-->
+				<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.64 69.49">
+					<g id="Calque_1">
+						<g>
+							<path
+								d="M3.02,33.32C-4.68,9.52,18.2-10.03,41.32,9.45c34.68-29.21,68.83,29.37,0,58.42-13.18-5.56-22.59-12.21-28.94-19.12"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></path>
+							<polyline
+								points="1.59 40.08 17.57 40.08 21.41 16.19 25.39 40.08 33.35 40.08 38.66 53.35 47.95 24.15 53.26 40.08 66.53 40.08"
+								style="fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:3px;"></polyline>
+						</g>
+					</g>
+				</svg>
+			</div>
+	
+			<form action="" method="post"
+				class="bloc formulaire simpay-checkout-form simpay-form-181589 simpay-styled simpay-checkout-form--embedded"
+				id="simpay-form-181589" data-simpay-form-id="181589" data-simpay-form-instance="2">
+				<div class="simpay-form-control simpay-name-container simpay-customer-name-container">
+	
+					<div id="title_coord" class="simpay-customer_name-label simpay-label-wrap title_coordonne">
+						<label for="simpay-form-181589-field-7" class="title_coordonne">
+							Vos coordonnées </label>
+					</div>
+	
+					<div class="simpay-customer-name-wrap simpay-field-wrap">
+						<input type="text" name="simpay_customer_name" id="simpay-form-181589-field-7"
+							class="simpay-customer-name" value="" placeholder="Nom complet" required="">
+					</div>
+				</div>
+	
+	
+				<div class="simpay-form-control simpay-email-container">
+	
+					<div class="simpay-email-label simpay-label-wrap">
+						<label for="simpay-form-181589-field-3" class="screen-reader-text">
+							email </label>
+					</div>
+	
+					<div class="simpay-email-wrap simpay-field-wrap">
+						<input type="email" name="simpay_email" id="simpay-form-181589-field-3" class="simpay-email"
+							value="" placeholder="Email" required="">
+					</div>
+				</div>
+	
+	
+				<fieldset class="simpay-form-control simpay-address-container simpay-billing-address-container">
+	
+					<div class="simpay-address-container">
+	
+						<div class="simpay-form-control simpay-address-country-container">
+	
+							<div class="simpay-address-label simpay-label-wrap">
+								<label for="simpay-form-181589-field-6" class="screen-reader-text">
+									address </label>
+							</div>
+	
+							<div class="simpay-country-wrap simpay-field-wrap">
+								<select name="simpay_billing_address_country"
+									id="simpay-form-181589-field-6-billing-country" class="simpay-address-country">
+									<option value="">
+										Select a country… </option>
+									<option value="AF">
+										Afghanistan </option>
+									<option value="AX">
+										Åland Islands </option>
+									<option value="AL">
+										Albania </option>
+									<option value="DZ">
+										Algeria </option>
+									<option value="AS">
+										American Samoa </option>
+									<option value="AD">
+										Andorra </option>
+									<option value="AO">
+										Angola </option>
+									<option value="AI">
+										Anguilla </option>
+									<option value="AQ">
+										Antarctica </option>
+									<option value="AG">
+										Antigua and Barbuda </option>
+									<option value="AR">
+										Argentina </option>
+									<option value="AM">
+										Armenia </option>
+									<option value="AW">
+										Aruba </option>
+									<option value="AU">
+										Australia </option>
+									<option value="AT">
+										Austria </option>
+									<option value="AZ">
+										Azerbaijan </option>
+									<option value="BS">
+										Bahamas </option>
+									<option value="BH">
+										Bahrain </option>
+									<option value="BD">
+										Bangladesh </option>
+									<option value="BB">
+										Barbados </option>
+									<option value="BY">
+										Belarus </option>
+									<option value="BE" selected="selected">
+										Belgium </option>
+									<option value="PW">
+										Belau </option>
+									<option value="BZ">
+										Belize </option>
+								</select>
+							</div>
+						</div>
+	
+	
+						<div class="simpay-form-control simpay-address-street-container">
+	
+							<div class="simpay-address-label simpay-label-wrap">
+								<label for="simpay-form-181589-field-6" class="screen-reader-text">
+									address </label>
+							</div>
+	
+							<div class="simpay-street-wrap simpay-field-wrap">
+								<input type="text" name="simpay_billing_address_line1"
+									id="simpay-form-181589-field-6-billing-street" class="simpay-address-street"
+									value="" placeholder="Rue" maxlength="500">
+							</div>
+						</div>
+	
+						<div class="ville_code">
+							<div class="simpay-form-control simpay-address-city-container">
+		
+								<div class="simpay-address-label simpay-label-wrap">
+									<label for="simpay-form-181589-field-6" class="screen-reader-text">
+										address </label>
+								</div>
+		
+								<div class="simpay-city-wrap simpay-field-wrap">
+									<input type="text" name="simpay_billing_address_city"
+										id="simpay-form-181589-field-6-billing-city" class="simpay-address-city" value=""
+										placeholder="Ville" maxlength="500">
+								</div>
+							</div>
+		
+		
+							<div class="simpay-form-control simpay-address-state-container">
+		
+								<div class="simpay-address-label simpay-label-wrap">
+									<label for="simpay-form-181589-field-6" class="screen-reader-text">
+										address </label>
+								</div>
+		
+								<!-- <div class="simpay-state-wrap simpay-field-wrap">
+									<input type="text" name="simpay_billing_address_state"
+										id="simpay-form-181589-field-6-billing-state" class="simpay-address-state" value=""
+										placeholder="Etat" maxlength="500">
+								</div> -->
+							</div>
+		
+		
+							<div class="simpay-form-control simpay-address-zip-container">
+		
+								<div class="simpay-address-label simpay-label-wrap">
+									<label for="simpay-form-181589-field-6" class="screen-reader-text">
+										address </label>
+								</div>
+		
+								<div class="simpay-zip-wrap simpay-field-wrap">
+									<input type="text" name="simpay_billing_address_postal_code"
+										id="simpay-form-181589-field-6-billing-zip" class="simpay-address-zip" value=""
+										placeholder="Code postal" maxlength="500">
+								</div>
+							</div>
+						</div>
+	
+					</div>
+				</fieldset>
+	
+	
+	
+				<div class="simpay-form-control simpay-plan-select-container" data-display-type="dropdown"
+					style="display: block">
+	
+					<div class="simpay-plan_select-label simpay-label-wrap">
+						<label for="simpay-form-181589-field-1" class="form_don">
+							Je choisis de faire un don mensuel de </label>
+					</div>
+	
+					<div class="simpay-plan-wrapper simpay-field-wrap simpay-dropdown-wrap">
+						<select id="simpay-form-181589-field-1" name="simpay_price">
+							<option id="" class="simpay-multi-sub simpay-price-option-price_1M5RCZIahUkTHJHZPo9vuzuU"
+								data-price="{&quot;instance_id&quot;:&quot;d5a5d994-69c5-408a-b5f8-c409a259f89c&quot;,&quot;product_id&quot;:&quot;prod_Mp5N7X41lRXM1E&quot;,&quot;id&quot;:&quot;price_1M5RCZIahUkTHJHZPo9vuzuU&quot;,&quot;default&quot;:true,&quot;label&quot;:&quot;5 \u20ac par mois&quot;,&quot;currency&quot;:&quot;eur&quot;,&quot;currency_symbol&quot;:&quot;€&quot;,&quot;is_zero_decimal&quot;:false,&quot;unit_amount&quot;:500,&quot;unit_amount_min&quot;:null,&quot;can_recur&quot;:false,&quot;recurring&quot;:{&quot;interval&quot;:&quot;month&quot;,&quot;interval_count&quot;:1},&quot;line_items&quot;:null,&quot;generated_label&quot;:&quot;5,00€ every 1 month&quot;,&quot;simplified_label&quot;:&quot;5 \u20ac par mois&quot;,&quot;currency_min_amount&quot;:100}"
+								selected="selected" value="price_1M5RCZIahUkTHJHZPo9vuzuU"
+								data-plan-id="price_1M5RCZIahUkTHJHZPo9vuzuU" data-plan-amount="5"
+								data-plan-setup-fee="" data-plan-interval="month" data-plan-interval-count="1"
+								data-plan-max-charges="0" data-plan-trial="">
+								5 € par mois </option>
+							<option id="" class="simpay-multi-sub simpay-price-option-price_1M5RCZIahUkTHJHZEtbDJzf0"
+								data-price="{&quot;instance_id&quot;:&quot;bc633ec1-dc46-47b7-ac4d-8fa9908be5c3&quot;,&quot;product_id&quot;:&quot;prod_Mp5N7X41lRXM1E&quot;,&quot;id&quot;:&quot;price_1M5RCZIahUkTHJHZEtbDJzf0&quot;,&quot;default&quot;:false,&quot;label&quot;:&quot;10 \u20ac par mois&quot;,&quot;currency&quot;:&quot;eur&quot;,&quot;currency_symbol&quot;:&quot;€&quot;,&quot;is_zero_decimal&quot;:false,&quot;unit_amount&quot;:1000,&quot;unit_amount_min&quot;:null,&quot;can_recur&quot;:false,&quot;recurring&quot;:{&quot;interval&quot;:&quot;month&quot;,&quot;interval_count&quot;:1},&quot;line_items&quot;:null,&quot;generated_label&quot;:&quot;10,00€ every 1 month&quot;,&quot;simplified_label&quot;:&quot;10 \u20ac par mois&quot;,&quot;currency_min_amount&quot;:100}"
+								value="price_1M5RCZIahUkTHJHZEtbDJzf0" data-plan-id="price_1M5RCZIahUkTHJHZEtbDJzf0"
+								data-plan-amount="10" data-plan-setup-fee="" data-plan-interval="month"
+								data-plan-interval-count="1" data-plan-max-charges="0" data-plan-trial="">
+								10 € par mois </option>
+							<option id="" class="simpay-multi-sub simpay-price-option-price_1M5RIFIahUkTHJHZnrqvIHL4"
+								data-price="{&quot;instance_id&quot;:&quot;2094df89-fe88-44b6-9021-a775d85abe4f&quot;,&quot;product_id&quot;:&quot;prod_Mp5N7X41lRXM1E&quot;,&quot;id&quot;:&quot;price_1M5RIFIahUkTHJHZnrqvIHL4&quot;,&quot;default&quot;:false,&quot;label&quot;:&quot;20 \u20ac par mois&quot;,&quot;currency&quot;:&quot;eur&quot;,&quot;currency_symbol&quot;:&quot;€&quot;,&quot;is_zero_decimal&quot;:false,&quot;unit_amount&quot;:2000,&quot;unit_amount_min&quot;:null,&quot;can_recur&quot;:false,&quot;recurring&quot;:{&quot;interval&quot;:&quot;month&quot;,&quot;interval_count&quot;:1},&quot;line_items&quot;:null,&quot;generated_label&quot;:&quot;20,00€ every 1 month&quot;,&quot;simplified_label&quot;:&quot;20 \u20ac par mois&quot;,&quot;currency_min_amount&quot;:100}"
+								value="price_1M5RIFIahUkTHJHZnrqvIHL4" data-plan-id="price_1M5RIFIahUkTHJHZnrqvIHL4"
+								data-plan-amount="20" data-plan-setup-fee="" data-plan-interval="month"
+								data-plan-interval-count="1" data-plan-max-charges="0" data-plan-trial="">
+								20 € par mois </option>
+						</select>
+					</div>
+				</div>
+	
+				<div class="simpay-form-control simpay-amounts-container">
+					<div class="simpay-subtotal-amount-container" style="display: none;">
+						<p class="simpay-subtotal-amount-label simpay-label-wrap">
+							<span>
+								Subtotal </span>
+							<span class="simpay-subtotal-amount-value">5,00€</span>
+						</p>
+					</div>
+	
+	
+					<div class="simpay-coupon-amount-container" style="display: none;">
+						<p class="simpay-coupon-amount-label simpay-label-wrap">
+							<span class="simpay-coupon-amount-name"></span>
+							<span class="simpay-coupon-amount-value"></span>
+						</p>
+					</div>
+	
+	
+					<div class="simpay-total-amount-container">
+						<p class="simpay-total-amount-label simpay-label-wrap">
+							Montant total: <span class="simpay-total-amount-value">5,00€</span>
+						</p>
+					</div>
+	
+	
+					<div class="simpay-total-amount-recurring-container" >
+						<p class="simpay-total-amount-recurring-label simpay-label-wrap">
+							Paiement récurrent
+							<span class="simpay-total-amount-recurring-value">5,00€ every month</span>
+						</p>
+					</div>
+	
+				</div>
+
+				<!-- <div class="simpay-form-control simpay-form-control--card simpay-card-container">
+	
+					<div class="simpay-card-label simpay-label-wrap">
+						<label for="simpay-form-181589-field-4" class="">
+							Moyen de paiement </label>
+					</div>
+	
+	
+					<div class="simpay-form-tabs">
+						<div class="simpay-form-tabs-toggles" role="tablist" aria-label="Moyen de paiement"
+							style="display: none;">
+							<button role="tab" aria-controls="simpay-payment-method-panel-card"
+								id="simpay-payment-method-toggle-card"
+								class="simpay-payment-method-toggle simpay-form-tabs-toggles__toggle is-active"
+								data-payment-method="card" aria-selected="true" tabindex="0" style="display: block;">
+	
+								Credit Card </button>
+						</div>
+	
+						<div id="simpay-payment-method-panel-card" role="tabpanel"
+							aria-labelledby="simpay-payment-method-toggle-card">
+	
+	
+							<div id="simpay-card-element-simpay-form-181589-field-4"
+								class="simpay-card-wrap simpay-field-wrap StripeElement StripeElement--empty"
+								data-show-postal-code="yes">
+								<div class="__PrivateStripeElement"
+									style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+									<iframe name="__privateStripeFrame69612" frameborder="0" allowtransparency="true"
+										scrolling="no" role="presentation" allow="payment *"
+										src="https://js.stripe.com/v3/elements-inner-card-0a2bf4cb8eb2809bdadde3d8eaa1d2c0.html#locale=auto&amp;wait=false&amp;mids[guid]=NA&amp;mids[muid]=311e4ec8-1af1-4bc7-9359-791a7beda22d0eae8a&amp;mids[sid]=NA&amp;hidePostalCode=true&amp;style[base][color]=%2332325d&amp;style[base][fontFamily]=-apple-system%2C+BlinkMacSystemFont%2C+Segoe+UI%2C+Helvetica%2C+Arial%2C+sans-serif%2C+Apple+Color+Emoji%2C+Segoe+UI+Emoji&amp;style[base][fontSize]=15px&amp;style[base][fontSmoothing]=antialiased&amp;style[base][fontWeight]=normal&amp;style[base][::placeholder][color]=%23aab7c4&amp;style[invalid][color]=%23fa755a&amp;style[invalid][iconColor]=%23fa755a&amp;rtl=false&amp;componentName=card&amp;keyMode=live&amp;apiKey=pk_live_nnQFJtdl4Olfb8UYAUGC1KxW00CeXY1Vmv&amp;referrer=https%3A%2F%2Fliguecardioliga.be%2Fsoutien-new%2F&amp;controllerId=__privateStripeController6967"
+										title="Cadre de saisie sécurisé pour le paiement par carte"
+										style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; height: 18px;"></iframe><input
+										class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" "
+										autocomplete="false" maxlength="1"
+										style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;">
+								</div>
+							</div>
+	
+	
+						</div>
+					</div>
+				</div> -->
+	
+	
+				<div class="simpay-form-control simpay-checkbox-container">
+					<div class="simpay-checkbox-label simpay-label-wrap">
+						<div class="simpay-checkbox-wrap simpay-field-wrap accepte">
+							<input type="checkbox" name="simpay_field[simpay-form-181589-field-8]"
+								class="simpay-checkbox" id="simpay-form-181589-field-8">
+	
+							<div class="simpay-checkbox-label simpay-label-wrap">
+								<label for="simpay-form-181589-field-8" class="form_condition">
+									J'accepte de recevoir des informations de la part de La Ligue Cardiologique Belge
+									<span class="simpay-optional-indicator"> (optional)</span> </label>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+	
+	
+				<div class="simpay-form-control simpay-checkout-btn-container">
+					<button id="simpay-form-181589-field-5" class="simpay-btn simpay-checkout-btn" type="submit">
+						<span>Payer <em class="simpay-total-amount-value">5,00€</em></span>
+					</button>
+				</div>
+				<input type="hidden" name="simpay_form_id" value="181589"><input type="hidden" name="simpay_amount"
+					value="" class="simpay-amount">
+				<div class="simpay-errors" id="simpay-form-181589-error" aria-live="assertive"
+					aria-relevant="additions text" aria-atomic="true"></div><input type="hidden"
+					name="simpay_multi_plan_id" value="price_1M5RCZIahUkTHJHZPo9vuzuU"
+					class="simpay-multi-plan-id"><input type="hidden" name="simpay_multi_plan_setup_fee" value="0"
+					class="simpay-multi-plan-setup-fee"><input type="hidden" name="simpay_max_charges" value="0"
+					class="simpay-max-charges"><input type="hidden" name="simpay_has_custom_plan"
+					class="simpay-has-custom-plan" value=""><input type="hidden" name="simpay_tax_amount" value=""
+					class="simpay-tax-amount"><input type="hidden" id="_wpnonce" name="_wpnonce"
+					value="93155dc2d8"><input type="hidden" name="_wp_http_referer" value="/soutien-new/">
+			</form>	
+
+		<!-- </div> -->
+		
+		
+	</section>
+
+
+	<script src="js/jquery-3.6.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

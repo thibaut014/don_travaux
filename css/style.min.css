@@ -1,0 +1,273 @@
+svg {
+  height: 50px;
+}
+
+.baniere {
+  background-color: #EAEAEA;
+  height: 160px;
+  display: flex;
+}
+.baniere .sujet .titre {
+  margin-top: 7%;
+  border-left: 3px solid red;
+  padding-left: 10px;
+  font-weight: 700;
+}
+.baniere .sujet .sousT {
+  margin-top: 2%;
+  font-weight: 700;
+  padding-left: 13px;
+}
+
+.contexte {
+  text-align: center;
+  display: block;
+}
+.contexte h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 2%;
+}
+.contexte .lien {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 6%;
+  cursor: pointer;
+  background-color: #EAEAEA;
+  width: 370px;
+  padding-left: 10px;
+  border-radius: 25px;
+}
+.contexte .lien .active {
+  background-color: #E52729;
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-radius: 25px;
+  z-index: 1;
+  position: relative;
+}
+.contexte .lien .active::before {
+  background-image: url("../img/coeur.png"); /* with class ModalCarrot ??*/
+  position: absolute; /*or absolute*/
+  z-index: 10; /*a number that's more than the modal box*/
+  left: 85px;
+  top: -28px;
+  background-size: 35px 35px;
+  width: 35px;
+  height: 35px;
+  content: "";
+}
+.contexte .lien .active h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 4%;
+}
+.contexte .lien .gris {
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-radius: 25px;
+  margin-left: -4%;
+}
+.contexte .lien .gris h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 4%;
+}
+.contexte .texte {
+  font-weight: 600;
+  margin-top: 3%;
+}
+.contexte .texte .rouge {
+  color: red;
+}
+
+.don {
+  display: none;
+}
+.don .bloc {
+  padding: 10px;
+  margin: 10px;
+}
+.don .bloc_don {
+  background-color: #E52729;
+  color: white;
+  height: 350px;
+  width: 310px;
+  text-align: center;
+  font-weight: 600;
+  border-top-right-radius: 15px;
+}
+.don .bloc_don .rond {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+.don .bloc_don .prix {
+  width: 80px;
+  height: 80px;
+  border-radius: 55px;
+  background-color: white;
+  color: #E52729;
+  margin-left: 38%;
+  border: 2px solid #E52729;
+  font-size: 30px;
+  padding-top: 20px;
+  margin: auto auto;
+}
+.don .bloc_don .prix:hover {
+  background-color: #E52729;
+  color: white;
+  border: 2px solid white;
+}
+.don .bloc_don #Layer_2 {
+  margin-top: 5%;
+}
+.don .bloc_don .active_prix {
+  background-color: #E52729;
+  color: white;
+  border: 2px solid white;
+}
+.don .formulaire {
+  background-color: #CDCCCC;
+  color: #E52729;
+  width: 310px;
+  border-top-right-radius: 15px;
+}
+.don .formulaire #title_coord {
+  text-align: center;
+}
+.don .formulaire .title_coordonnee {
+  text-align: center !important;
+}
+.don .formulaire .simpay-label-wrap {
+  text-align: left;
+  font-weight: 600;
+}
+.don .formulaire .simpay-label-wrap .form_don {
+  color: white;
+  margin: 5px;
+  font-size: 15px;
+}
+.don .formulaire .simpay-label-wrap .form_paiement {
+  color: white;
+}
+.don .formulaire .simpay-field-wrap {
+  text-align: center;
+}
+.don .formulaire .screen-reader-text {
+  display: none;
+}
+.don .formulaire input, .don .formulaire select {
+  margin: 5px;
+  border-radius: 3px;
+  border: none;
+}
+.don .formulaire input::-moz-placeholder {
+  color: #CDCCCC;
+  opacity: 90%;
+}
+.don .formulaire input:-ms-input-placeholder {
+  color: #CDCCCC;
+  opacity: 90%;
+}
+.don .formulaire input::placeholder {
+  color: #CDCCCC;
+  opacity: 90%;
+}
+.don .formulaire .simpay-field-wrap {
+  display: flex;
+}
+.don .formulaire .simpay-address-city {
+  width: 100%;
+}
+.don .formulaire .simpay-address-zip {
+  width: 100%;
+}
+.don .formulaire .simpay-customer-name, .don .formulaire .simpay-email, .don .formulaire .simpay-address-street, .don .formulaire .simpay-custom-amount-input, .don .formulaire select {
+  width: 100%;
+}
+.don .formulaire .ville_code {
+  display: flex;
+  flex-direction: row;
+}
+.don .formulaire .simpay-checkout-btn-container {
+  text-align: center;
+}
+.don .formulaire .simpay-checkout-btn-container .simpay-checkout-btn {
+  background-color: #E52729;
+  border: none;
+  width: 150px;
+  height: 35px;
+  border-radius: 15px;
+  color: white;
+}
+.don .formulaire .accepte {
+  color: white;
+  display: flex;
+}
+.don .formulaire .accepte .form_condition {
+  text-align: start;
+  font-size: 12px;
+  margin-top: 6%;
+}
+
+.simpay-total-amount-label {
+  color: black;
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.simpay-total-amount-recurring-label {
+  color: black;
+  margin: 5px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 13px;
+}
+
+.don_active {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.simpay-form-control button {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .baniere .sujet .titre {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 768px) {
+  .baniere .sujet {
+    margin-top: 2%;
+  }
+}
+@media (min-width: 992px) {
+  .baniere .sujet {
+    margin-top: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .baniere .sujet {
+    margin-top: -1%;
+  }
+}
+@media (min-width: 1400px) {
+  .baniere .sujet {
+    margin-top: -2%;
+  }
+  .contexte .lien {
+    margin-top: 3%;
+  }
+}/*# sourceMappingURL=style.min.css.map */
